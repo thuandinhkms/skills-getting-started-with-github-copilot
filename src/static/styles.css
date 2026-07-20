@@ -74,6 +74,77 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding: 12px;
+  background: linear-gradient(135deg, #eef4ff, #f8fbff);
+  border: 1px solid #d8e4ff;
+  border-radius: 8px;
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.participant-item {
+  margin-bottom: 6px;
+  color: #1f2a44;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.participant-item:last-child {
+  margin-bottom: 0;
+}
+
+.participant-email {
+  overflow-wrap: anywhere;
+}
+
+.delete-participant-btn {
+  border: none;
+  background: #ffd7d9;
+  color: #a81f2a;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.15s;
+}
+
+.delete-participant-btn:hover {
+  background: #ffc2c6;
+  transform: scale(1.05);
+}
+
+.delete-participant-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.participants-empty {
+  margin: 0;
+  color: #5f6b7a;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
