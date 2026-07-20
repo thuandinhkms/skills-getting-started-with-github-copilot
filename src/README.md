@@ -48,3 +48,19 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+## Running Backend Tests
+
+This project uses `pytest` for backend tests.
+
+Run all tests:
+
+```bash
+pytest -q
+```
+
+Run only backend API tests:
+
+```bash
+pytest tests/backend -q
+```
